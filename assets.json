@@ -1,0 +1,33 @@
+{
+  "name": "dumi-lib",
+  "package": "dumi-lib",
+  "logo": "https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png",
+  "assets": {
+    "atoms": [
+      {
+        "identifier": "Foo"
+      }
+    ],
+    "examples": [
+      {
+        "type": "BLOCK",
+        "atomAssetId": "Foo",
+        "identifier": "Foo-demo",
+        "dependencies": {
+          "react": {
+            "type": "NPM",
+            "value": "18.2.0"
+          },
+          "dumi-lib": {
+            "type": "NPM",
+            "value": "1.0.1"
+          },
+          "index.tsx": {
+            "type": "FILE",
+            "value": "/**\n * title:Foo demo\n * thumbanail:\n * previewUrl\n */\nimport React from 'react';\nimport { Foo } from 'dumi-lib';\n\nexport default () => <Foo title=\"First Demo\" />;"
+          }
+        }
+      }
+    ]
+  }
+}
