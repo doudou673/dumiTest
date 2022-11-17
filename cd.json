@@ -2,5 +2,5 @@
   "branch": "docs",
   "public": "./",
   "cache": false,
-  "cname": "dumi-test.alibaba-inc.com"
+  "cname": "dumiTest.alibaba-inc.com"
 }
