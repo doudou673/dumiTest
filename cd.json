@@ -1,6 +1,5 @@
 {
   "branch": "docs",
   "public": "./",
-  "cache": false,
-  "cname": "dumiTest.alibaba-inc.com"
+  "cache": false
 }
